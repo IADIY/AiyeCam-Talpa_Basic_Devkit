@@ -17,7 +17,7 @@ It is recommended to use the [Windows Subsystem for Linux (WSL)](https://www.mic
 git clone https://github.com/IADIY/AiyeCam-Talpa_devkit.git
 ```
 
-- Unpacking the SDK and install the necessary tools:
+- Execute the bash script to download the SDK and install the necessary tools:
  ```bash
    cd AiyeCam-Talpa_devkit
    bash install.sh
@@ -52,14 +52,30 @@ fi
    bash createNBF.sh
 ```
 
+## Connect your chip to the PC
+
+### For AiyeCam-Talpa-DB
+#### Step 1
+Please connect the AiyeCam-Talpa-DB via your USB-cable. 
+
+#### Step 2
+Hold the reset button or turn the slide switch to the right side.
+
+<img src="https://github.com/user-attachments/assets/c339fde4-d43a-4567-9f3a-84b0998995e7" width="25%" height="25%"/>
+
+### For AiyeCam-Talpa-FPC
+To flash the code to the memory on the AiyeCam-Talpa-FPC Extension Board, please follow the instructions below:
+
+#### Step 1
+Please unmount the AiyeCam-Talpa-FPC from the extension board.
+
+#### Step 2
+Follow the image below to connect a CH341A Programmer to the extension board.
+
+
+
 ## Flashing the Program - Under Windows OS
 - Download [`CH341A Driver`](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Driver_Win.zip) to Windows OS.
 - Download [`SPI Flasher` ](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Programmer.zip) to Windows OS.
 - Move the `.nbf` file under `Talpa_SDK/project` to your Windows OS.
 - Select the `.nbf` file that was moved to your Windows system in the previous step, set the CPU to the reset state by **HOLDING the BUTTON on the Board**(see below) and then click the `Program` icon to flash the program into memory. 
-<img src="https://github.com/user-attachments/assets/c339fde4-d43a-4567-9f3a-84b0998995e7" width="25%" height="25%"/>
-
-### to AiyeCam-Talpa-DB
-TODO
-### To AiyeCam-Talpa-FPC
-TODO
