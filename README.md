@@ -68,18 +68,16 @@ Follow the image below to connect a CH341A Programmer to the extension board.
 
 ![AI_SoC_FPC_Extension_Board_F](https://github.com/user-attachments/assets/88bdcff4-4811-4671-adcc-ddd691aeb6cd)
 
-### Step 3
-Check whether the memory is correctly detected by the programmer.
-
-
 ### For AiyeCam-Talpa-DB
 #### Step 1
 Please connect the AiyeCam-Talpa-DB via your USB-cable. 
 
 #### Step 2
 Hold the **reset button or turn the slide switch to the right side** to bring the CPU to the reset state. (see below) 
+![RestPin](https://github.com/user-attachments/assets/1be7dc14-dc97-409c-a7fb-297c2baa9f57)
 
-### Run the CH341A Programmer
+### Flash the code via CH341A Programmer
+![Flash](https://github.com/user-attachments/assets/77ded1a3-bc78-4331-8e7a-b5de0db18c84)
 - 1 Select the `.nbf` file that was moved to your Windows system.
 
 - 2 Check the wheter the CH341A programmer detects the memory.
@@ -87,4 +85,4 @@ Hold the **reset button or turn the slide switch to the right side** to bring th
 - 3 Click the `Program` icon to flash the program into memory.
 
 
-![Flash](https://github.com/user-attachments/assets/5e15695d-a692-41ab-886a-a76852c5658f)
+
