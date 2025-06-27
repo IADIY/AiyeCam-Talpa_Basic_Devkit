@@ -66,6 +66,7 @@ Hold the **reset button or turn the slide switch to the right side** to bring th
 
 ### For AiyeCam-Talpa-FPC
 To flash the code to the memory on the AiyeCam-Talpa-FPC Extension Board, please follow the instructions and see the image below:
+![Flash](https://github.com/user-attachments/assets/5e15695d-a692-41ab-886a-a76852c5658f)
 
 ![AI_SoC_FPC_Extension_Board_F](https://github.com/user-attachments/assets/88bdcff4-4811-4671-adcc-ddd691aeb6cd)
 
