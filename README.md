@@ -74,7 +74,7 @@ Please connect the AiyeCam-Talpa-DB via your USB-cable.
 
 #### Step 2
 Hold the **reset button or turn the slide switch to the right side** to bring the CPU to the reset state. (see below) 
-![RestPin](https://github.com/user-attachments/assets/1be7dc14-dc97-409c-a7fb-297c2baa9f57)
+![RestPin](https://github.com/user-attachments/assets/cd7e11c7-6830-41a2-95a5-6ffd1ab94517)
 
 ### Flash the code via CH341A Programmer
 ![Flash](https://github.com/user-attachments/assets/77ded1a3-bc78-4331-8e7a-b5de0db18c84)
