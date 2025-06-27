@@ -46,13 +46,31 @@ else
 fi
 ```
 
-
 - To build your porject
 ```
    bash createNBF.sh
 ```
+After building the project, you should find the ```.nbf file``` under the ```project``` directory and ensure it has been moved to your Windows environment.
 
-## Connect your chip to the PC
+## Flash the code to the memory
+To flash the code to your memory, please follow the instructions below to setup your Windows environment.
+- Download [`CH341A Driver`](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Driver_Win.zip) to Windows OS.
+- Download [`SPI Flasher` ](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Programmer.zip) to Windows OS.
+
+### For AiyeCam-Talpa-FPC
+To flash the code to the memory on the AiyeCam-Talpa-FPC Extension Board, please follow the instructions and see the image below:
+
+#### Step 1
+Please unmount the AiyeCam-Talpa-FPC from the extension board.
+
+#### Step 2
+Follow the image below to connect a CH341A Programmer to the extension board.
+
+![AI_SoC_FPC_Extension_Board_F](https://github.com/user-attachments/assets/88bdcff4-4811-4671-adcc-ddd691aeb6cd)
+
+### Step 3
+Check whether the memory is correctly detected by the programmer.
+
 
 ### For AiyeCam-Talpa-DB
 #### Step 1
@@ -61,23 +79,12 @@ Please connect the AiyeCam-Talpa-DB via your USB-cable.
 #### Step 2
 Hold the **reset button or turn the slide switch to the right side** to bring the CPU to the reset state. (see below) 
 
-<img src="https://github.com/user-attachments/assets/c339fde4-d43a-4567-9f3a-84b0998995e7" width="25%" height="25%"/>
+### Run the CH341A Programmer
+- 1 Select the `.nbf` file that was moved to your Windows system.
+
+- 2 Check the wheter the CH341A programmer detects the memory.
+
+- 3 Click the `Program` icon to flash the program into memory.
 
 
-### For AiyeCam-Talpa-FPC
-To flash the code to the memory on the AiyeCam-Talpa-FPC Extension Board, please follow the instructions and see the image below:
 ![Flash](https://github.com/user-attachments/assets/5e15695d-a692-41ab-886a-a76852c5658f)
-
-![AI_SoC_FPC_Extension_Board_F](https://github.com/user-attachments/assets/88bdcff4-4811-4671-adcc-ddd691aeb6cd)
-
-#### Step 1
-Please unmount the AiyeCam-Talpa-FPC from the extension board.
-#### Step 2
-Follow the image below to connect a CH341A Programmer to the extension board.
-
-
-## Flashing the Program - Under Windows OS
-- Download [`CH341A Driver`](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Driver_Win.zip) to Windows OS.
-- Download [`SPI Flasher` ](https://www.iadiy.com/image/catalog/IADIY/products/camera-module/ai-camera-module/Download/CH341A_Programmer.zip) to Windows OS.
-- Move the `.nbf` file under `Talpa_SDK/project` to your Windows OS.
-- Select the `.nbf` file that was moved to your Windows system in the previous step and then click the `Program` icon to flash the program into memory.
