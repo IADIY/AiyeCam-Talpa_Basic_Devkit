@@ -84,5 +84,9 @@ Hold the **reset button or turn the slide switch to the right side** to bring th
 
 - 3 Click the `Program` icon to flash the program into memory.
 
+    - For AiyeCam-Talpa-DB
+    Release the reset button / pin to set the chip to normal operation state.
 
-
+    - For AiyeCam-Talpa-FPC
+    
+    Mount the AiyeCam-Talpa-FPC to the extension board and power up the chip.
