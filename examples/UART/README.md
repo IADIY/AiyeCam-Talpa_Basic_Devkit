@@ -3,9 +3,7 @@
 ## Introduction
 This tutorial provides a basic example of sending and receiving data via UART between the Talpa-DB and the computer. 
 
-## Hardware 
-- Talpa-DB
-- Computer with USB connector
+## Additional Components
 - USB to TTL converter
 - Wires
 
