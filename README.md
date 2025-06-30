@@ -16,7 +16,7 @@ We recommend using the [Windows Subsystem for Linux (WSL)](https://www.microsoft
 
 * **Clone the repository** in your Ubuntu environment:
     ```
-    git clone [https://github.com/IADIY/AiyeCam-Talpa_devkit.git](https://github.com/IADIY/AiyeCam-Talpa_devkit.git)
+    git clone https://github.com/IADIY/AiyeCam-Talpa_devkit.git
     ```
 
 * **Execute the bash script** to download the SDK and install the necessary tools:
