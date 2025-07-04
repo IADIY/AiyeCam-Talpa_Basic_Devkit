@@ -3,6 +3,9 @@
 **AiyeCam-Talpa_Basic_Devkit** repository provides the Talpa_SDK and basic example code for developers. Please follow these instructions to set up your development environment.
 
 For further applications that include abilities please visist our other repository: https://github.com/IADIY/AiyeCam-Talpa-AI_Model
+
+For more information about the AiyeCam-Talpa series products, please visit: https://www.iadiy.com/ai-smart-camera
+
 ## SDK Overview
 
 The AiyeCam-Talpa_devkit package requires two operating systems: **Ubuntu 22.04 or later** for building projects and **Windows 10 or later** for flashing the program into memory.
